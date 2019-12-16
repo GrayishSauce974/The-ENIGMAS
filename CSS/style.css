@@ -3,13 +3,13 @@ h1 {
   font-family: 'Luckiest Guy', cursive;
   font-size: 25px;
   fill: #FF0000;
+  padding-top: 150px;
 }
 h2 {
   text-align: center;
   font-family: 'Luckiest Guy', cursive;
   font-size: 25px;
   fill: #red;
-  padding-top: 150px;
 }
 button {
   Color: FFB5F6;
