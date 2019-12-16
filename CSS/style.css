@@ -10,7 +10,7 @@ p {
   font-family: 'Luckiest Guy', cursive;
   font-size: 25px;
   fill: #FF0000;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 content {
   padding-top: 50px;
@@ -23,6 +23,7 @@ h2 {
 }
 h3 {
   color: red;
+  padding-top: 80px;
 }
 button {
   Color: FFB5F6;
