@@ -102,13 +102,6 @@ fixed-top {
    text-align: center;
    transform: rotateY(180deg);
   }
-  .back p{
-    font-family: times, serif;
-    padding: 30px;
-    font-weight: bold;
-    font-size: 10px;
-    text-align: center;
-  }
   .front p{
     font-family: times, serif;
     padding: 30px;
