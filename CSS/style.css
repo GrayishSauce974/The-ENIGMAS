@@ -160,32 +160,7 @@ label {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
-#Spain {
-  ~ .option-Spain {
-    cursor: url("Spanishflag.webp"), auto;
-  }
-  &:checked ~ .option-Spain {
-  background: green;
-  }
-}
 
-#Italy {
-  ~ .option-Italy {
-    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
-  }
-  &:checked ~ .option-Italy {
-    background: red;
-  }
-}
-
-#Germany {
-  ~ .option-Germany {
-    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/meh.png"), auto;
-  }
-  &:checked ~ .option-Germany {
-    background: orange;
-  }
-}*/
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
