@@ -134,6 +134,10 @@ body {
   font-family: helvetica;
   background: #eee;
   text-align: center;
+  padding-top: 150px;
+}
+.content {
+  padding-top: 200px;
 }
 
 form {
