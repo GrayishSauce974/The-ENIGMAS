@@ -1,0 +1,54 @@
+<DOCTYPE! html>
+<head>
+</head>
+<body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Global Enigmas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <form>
+    <input type="button" class="btn btn-primary" onclick="window.location.href='index.html';" value="Home"/>
+    <input type="button" class="btn btn-primary" onclick="window.location.href='about.html';" value="About"/>
+    <input type="button" class="btn btn-primary" onclick="window.location.href='blog.html';" value="Blog"/>
+    <input type="button" class="btn btn-primary" onclick="window.location.href='FAQ.html';" value="FAQ"/>
+    <input type="button" class="btn btn-primary" onclick="window.location.href='Contactus.html';" value="Contact us"/>
+    <input type="button" class="btn btn-primary" onclick="window.location.href='Login.html';" value="Log in"/>
+ </form>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <script type="text/javascript" src="JavaScrit\script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <h1>Login New User</h1>
+
+    <form action="">
+
+      Username: <input type="text" id= "username" name="username"><br><br>
+      Nametag: <input type="text" id= "nametag" name="nametag"><br><br>
+      <input type="button" value="submit" onclick="Send_Data()"/> <br><br>
+      <input type="button" value="get username" onclick="getCookie()" /> <br><br>
+    </form>
+
+    <script type="text/javascript">
+    function Send_Data() {
+    var username= "username="+ document.getElementById("username").value
+    var nametag= "passwood1=" +  document.getElementById("nametag").value;
+
+    document.cookie = username;
+    document.cookie = nametag;
+    }
+    function getCookie() {
+    alert(document.cookie);
+
+    }
+  </script>
+
+</body>
